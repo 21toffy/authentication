@@ -48,3 +48,20 @@ class UserProfileForm(forms.ModelForm):
 class LoginForm(forms.Form):
    username = forms.CharField(max_length = 100,)
    password = forms.CharField(widget=forms.PasswordInput())
+
+
+
+# class UserForm(forms.ModelForm):
+#     password = forms.CharField(widget=forms.PasswordInput())
+#     class Meta():
+#         model = User
+#         fields = ('username','password','email')
+# class UserProfileInfoForm(forms.ModelForm):
+#      class Meta():
+#          model = UserProfileInfo
+#          fields = ('portfolio_site','profile_pic')
+
+
+#https://medium.com/@himanshuxd/how-to-create-registration-login-webapp-with-django-2-0-fd33dc7a6c67
+
+#july 2017
